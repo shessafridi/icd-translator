@@ -30,7 +30,7 @@ jobs:
       - run: npm ci
       - name: Building App
         env:
-          PUBLIC_URL: https://shessafridi.github.io/admin-panel/
+          PUBLIC_URL: https://shessafridi.github.io/icd-translator/
         run: npm run build --if-present
 
       - name: Deploy 🚀
