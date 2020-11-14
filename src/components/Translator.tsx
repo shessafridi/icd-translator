@@ -39,10 +39,13 @@ const Translator: React.FC<TranslatorProps> = () => {
   const handleTranslate = async () => {
     setLoading(true);
     try {
-      const response = await axios.post('http://localhost:4000/translate', {
-        src: textToTranslate,
-        to: selectedLang,
-      });
+      const response = await axios.post(
+        'https://icd-google-api.herokuapp.com/translate',
+        {
+          src: textToTranslate,
+          to: selectedLang,
+        }
+      );
       setTranslatedText(response.data.translated);
     } catch (e) {
       alert('There was an error' + e);
