@@ -12,7 +12,14 @@ import SelectLanguage from './SelectLanguage';
 
 const useStyles = makeStyles({
   root: {
-    margin: '40px 50px',
+    margin: '30px auto',
+    padding: '0 50px',
+    maxWidth: '1200px',
+    display: 'block',
+    marginLeft: 'auto',
+  },
+  rootSmall: {
+    padding: '0 20px',
   },
   grid: {
     display: 'grid',
@@ -58,7 +65,11 @@ const Translator: React.FC<TranslatorProps> = () => {
   };
 
   return (
-    <div className={classes.root}>
+    <div
+      className={
+        isLarge ? classes.root : `${classes.root} ${classes.rootSmall}`
+      }
+    >
       <div className={isLarge ? classes.grid : `${classes.small}`}>
         <div>
           <Typography variant='h6'>Enter Text</Typography>
