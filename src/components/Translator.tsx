@@ -8,6 +8,7 @@ import {
 } from '@material-ui/core';
 import axios from 'axios';
 import React, { useState } from 'react';
+import { apiUrl } from '../config';
 import SelectLanguage from './SelectLanguage';
 
 const useStyles = makeStyles({
@@ -46,13 +47,10 @@ const Translator: React.FC<TranslatorProps> = () => {
   const handleTranslate = async () => {
     setLoading(true);
     try {
-      const response = await axios.post(
-        'https://icd-google-api.herokuapp.com/translate',
-        {
-          src: textToTranslate,
-          to: selectedLang,
-        }
-      );
+      const response = await axios.post(apiUrl, {
+        src: textToTranslate,
+        to: selectedLang,
+      });
       setTranslatedText(response.data.translated);
     } catch (e) {
       alert('There was an error' + e);
