@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "https://shessafridi.github.io/admin-panel/static/css/main.6d5fefda.chunk.css",
-    "main.js": "https://shessafridi.github.io/admin-panel/static/js/main.fa2a5da3.chunk.js",
-    "main.js.map": "https://shessafridi.github.io/admin-panel/static/js/main.fa2a5da3.chunk.js.map",
-    "runtime-main.js": "https://shessafridi.github.io/admin-panel/static/js/runtime-main.2788069b.js",
-    "runtime-main.js.map": "https://shessafridi.github.io/admin-panel/static/js/runtime-main.2788069b.js.map",
-    "static/js/2.b41b2731.chunk.js": "https://shessafridi.github.io/admin-panel/static/js/2.b41b2731.chunk.js",
-    "static/js/2.b41b2731.chunk.js.map": "https://shessafridi.github.io/admin-panel/static/js/2.b41b2731.chunk.js.map",
-    "static/js/3.140f2773.chunk.js": "https://shessafridi.github.io/admin-panel/static/js/3.140f2773.chunk.js",
-    "static/js/3.140f2773.chunk.js.map": "https://shessafridi.github.io/admin-panel/static/js/3.140f2773.chunk.js.map",
-    "index.html": "https://shessafridi.github.io/admin-panel/index.html",
-    "static/css/main.6d5fefda.chunk.css.map": "https://shessafridi.github.io/admin-panel/static/css/main.6d5fefda.chunk.css.map",
-    "static/js/2.b41b2731.chunk.js.LICENSE.txt": "https://shessafridi.github.io/admin-panel/static/js/2.b41b2731.chunk.js.LICENSE.txt"
+    "main.css": "https://shessafridi.github.io/icd-translator/static/css/main.6d5fefda.chunk.css",
+    "main.js": "https://shessafridi.github.io/icd-translator/static/js/main.fa2a5da3.chunk.js",
+    "main.js.map": "https://shessafridi.github.io/icd-translator/static/js/main.fa2a5da3.chunk.js.map",
+    "runtime-main.js": "https://shessafridi.github.io/icd-translator/static/js/runtime-main.75d6b96c.js",
+    "runtime-main.js.map": "https://shessafridi.github.io/icd-translator/static/js/runtime-main.75d6b96c.js.map",
+    "static/js/2.b41b2731.chunk.js": "https://shessafridi.github.io/icd-translator/static/js/2.b41b2731.chunk.js",
+    "static/js/2.b41b2731.chunk.js.map": "https://shessafridi.github.io/icd-translator/static/js/2.b41b2731.chunk.js.map",
+    "static/js/3.140f2773.chunk.js": "https://shessafridi.github.io/icd-translator/static/js/3.140f2773.chunk.js",
+    "static/js/3.140f2773.chunk.js.map": "https://shessafridi.github.io/icd-translator/static/js/3.140f2773.chunk.js.map",
+    "index.html": "https://shessafridi.github.io/icd-translator/index.html",
+    "static/css/main.6d5fefda.chunk.css.map": "https://shessafridi.github.io/icd-translator/static/css/main.6d5fefda.chunk.css.map",
+    "static/js/2.b41b2731.chunk.js.LICENSE.txt": "https://shessafridi.github.io/icd-translator/static/js/2.b41b2731.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2788069b.js",
+    "static/js/runtime-main.75d6b96c.js",
     "static/js/2.b41b2731.chunk.js",
     "static/css/main.6d5fefda.chunk.css",
     "static/js/main.fa2a5da3.chunk.js"
