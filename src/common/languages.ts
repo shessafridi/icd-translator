@@ -72,7 +72,7 @@ export const languageCodes = {
   fa: 'Persian',
   pl: 'Polish',
   pt: 'Portuguese',
-  ma: 'Punjabi',
+  pa: 'Punjabi',
   ro: 'Romanian',
   ru: 'Russian',
   sm: 'Samoan',
